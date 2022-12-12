@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;500;600;700;800&display=swap'); 
+:root {
+    --Light-Cyan: hsl(193, 38%, 86%);
+    --Neon-Green: hsl(150, 100%, 66%);
+    --Dark-Blue: hsl(218, 23%, 16%);
+    --Grayish-Blue: #4e5d73;
+    --Dark-Grayish-Blue: #323a49;
+  
+    --primary-font: 'Manrope', sans-serif;
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+button{
+    cursor: pointer;
+    outline: none;
+    border: 0;
+}
+.container{
+    background-color:var(--Dark-Blue);
+    height: 100vh;
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.advice-box{
+    background-color: var(--Dark-Grayish-Blue);
+    width: 40%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3.2rem 2.5rem;
+    border-radius: 8px;
+    position: relative;
+    
+    color: var(--Light-Cyan)
+}
+.adviceId{
+    color: var(--Neon-Green);
+    font-family: var(--primary-font);
+    font-size: .8rem;
+    letter-spacing: .15rem;
+    margin-bottom: .4rem;
+}
+.advice-content h2{
+    font-size: 28px;
+    /* letter-spacing: .03rem; */
+    transition: .5s ease-in;
+    padding: 1.3rem 0;
+    font-weight: 800;
+    font-family: var(--primary-font);
+}
+.divider img{
+    margin-top: 1rem;
+    width: 80%;
+}
+
+.toggleBtnCon{
+    position: absolute;
+    bottom: -9%;
+    cursor: pointer;
+}
+.toggleBtn{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: var(--Neon-Green);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.toggleBtn:hover {
+    background-color: #53ffaa;
+    box-shadow: 0 0 4.3rem #53ffaa;
+  }
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  position: absolute;
+  bottom: 3rem;
+  color: #fff;
+  }
+  .attribution a {
+    color: #a6c3ee;
+  }
+  @media(max-width:576px){
+    .advice-box{
+        width: 90%;
+        padding: 2rem 1.5rem;
+    }
+    .attribution{
+        bottom: 1.5rem;
+    }
+    .advice-content h2{
+        padding: 1rem 0;
+       
+    }
+    .toggleBtn{
+        height: 45px;
+        width: 45px;
+       
+    }
+  }
