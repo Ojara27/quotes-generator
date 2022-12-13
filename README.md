@@ -49,7 +49,7 @@ I learnt how to use fetch API to fetch data from an external API
 ## Author
 
 <!-- - Website - [Add your name here](https://www.your-site.com) -->
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Ojara27)
-- Twitter - [@yourusername](https://twitter.com/ojarraa)
+- Frontend Mentor - [@Ojara27](https://www.frontendmentor.io/profile/Ojara27)
+- Twitter - [@ojarraa](https://twitter.com/ojarraa)
 
 
