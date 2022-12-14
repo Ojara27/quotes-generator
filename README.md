@@ -30,8 +30,8 @@ This is what the app looks like
 ![](./images/screenshot.png)
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://frontend-mentor-quotes-generator.netlify.app/)
+- Solution URL: [Check out the solution on frontend mentor](https://www.frontendmentor.io/solutions/advice-generator-app-PD_WVKt9hg)
+- Live Site URL: [Live Site url](https://frontend-mentor-quotes-generator.netlify.app/)
 
 ### Built with
 
